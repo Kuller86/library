@@ -1,0 +1,15 @@
+require 'yaml'
+require 'date'
+require 'ffaker'
+
+require_relative 'validation/exceptions'
+require_relative 'validation/validator'
+require_relative 'entities/author'
+require_relative 'entities/book'
+require_relative 'entities/order'
+require_relative 'entities/reader'
+require_relative 'entities/library'
+
+require_relative 'services/library_generator'
+require_relative 'utils/data_manager'
+require_relative 'utils/output'
